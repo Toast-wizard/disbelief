@@ -1,0 +1,13 @@
+
+import random
+import time
+a =["elma", "armut", "tommygun", "minigun", "sans", "G E M İ", "küp", "paradoks"]
+b = random.randint(0,7)
+c = input("rastgele sözcük için Enter'a basınız")
+print("bekleyiniz...")
+time.sleep(3)
+print("biraz daha bekleyiniz...")
+time.sleep(20)
+print("tamam!")
+time.sleep(1)
+print("rastgele sözcük:", a[b])
